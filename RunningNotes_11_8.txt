@@ -1,1 +1,2 @@
 Arrayworking:https://pythontutor.com/java.html
+https://www.w3schools.com/java/java_arrays.asp
