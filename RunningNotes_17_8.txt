@@ -10,4 +10,7 @@ https://www.edureka.co/blog/30-pattern-programs-in-java/
 2. Number Pattern Program in java
 5. Number Pattern Programs in Java
 6. Descending order Pattern
-
+-----------
+HALL, KITCHEN, ALL HOME MEMBERS CAN USE.. UR BEDROOM,, CAN BE USED BY U ONLY
+GENERAL -> PUBLIC, PWD -> PRIVATE, COMMON MAIL ID TO BE SEEN BY KNOWN ONES -> PROTECTED
+-----------------
