@@ -1,1 +1,13 @@
 https://www.edureka.co/blog/30-pattern-programs-in-java/
+
+1. Pyramid Program
+
+2. Right Triangle Star Pattern
+3. Left Triangle Star Pattern
+
+5. Downward Triangle Star Pattern
+1. Simple number program
+2. Number Pattern Program in java
+5. Number Pattern Programs in Java
+6. Descending order Pattern
+
