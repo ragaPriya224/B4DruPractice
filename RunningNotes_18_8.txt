@@ -1,0 +1,13 @@
+method creation
+object creation and usage 
+
+
+
+
+
+
+---------------------
+modifier returnType nameOfMethod (Parameter List) {
+// method body
+}
+----------------
