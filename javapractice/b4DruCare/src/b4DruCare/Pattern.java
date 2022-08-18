@@ -4,9 +4,9 @@ public class Pattern {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		for(int i = 1; i <=5; i++) { // row 
-			for(int j = 1; j <=i; j++) { //columns
-				System.out.print(i);
+		for(int count = 1; count <=5; count++) { // row 
+			for(int iterator = 1; iterator <=count; iterator++) { //columns
+				System.out.print(count);
 			}
 			System.out.println();
 			
