@@ -3,8 +3,8 @@ package b4DruCare;
 public class StringDemo {
 
 	public static void main(String[] args) {
-		String s1 = new String("icecream");
-		System.out.println(s1);
+		String name = new String("icecream");
+		System.out.println(name);
 		String value = "ajay:vishal:sameera:sowmya";
 		System.out.println(value);
 		System.out.println(value.length());
