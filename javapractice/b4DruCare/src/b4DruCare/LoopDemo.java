@@ -3,17 +3,17 @@ package b4DruCare;
 public class LoopDemo {
 
 	public static void main(String[] args) {
-		int i = 1;
-		//		while (i<5) {
+		int  count = 1;
+		//		while (count<5) {
 		//			System.out.println("hi team ");
-		//			i++;
+		//			count++;
 		//		}
 
 		do {
 			System.out.println("hlo team ");
-			i++;
+			count++;
 		}
-		while (i>5);
+		while (count>5);
 
 	}
 
