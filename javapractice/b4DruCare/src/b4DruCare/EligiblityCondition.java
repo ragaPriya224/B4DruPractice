@@ -6,7 +6,7 @@ public class EligiblityCondition {
 		int age = 50;
 		String nationality = "chinese";
 		
-		if(age>=18 || nationality == "indian") {
+		if(age >= 18 || nationality == "indian") {
 			System.out.println("you can vote");
 		}else {
 			System.out.println("u cannot vote");
