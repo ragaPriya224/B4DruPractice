@@ -11,3 +11,10 @@ modifier returnType nameOfMethod (Parameter List) {
 // method body
 }
 ----------------
+
+class B extends A 
+then 
+
+class A   = parent class, base class, super class ->. class wose feature are inherited
+|
+ class B	= child class, sub class , derived class, extended class  class that inherites other class
