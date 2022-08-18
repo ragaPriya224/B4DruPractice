@@ -19,8 +19,8 @@ public class StringDemo {
 		System.out.println(value.substring(5, 9));
 		System.out.println(value.indexOf('l')); // trying to get the index 
 		System.out.println(value.lastIndexOf('l'));
-		String[] a = value.split(":");
-		for(String alpha: a) {
+		String[] result = value.split(":");
+		for(String alpha: result) {
 			System.out.println(alpha);
 		}
 		System.out.println(value.split(":"));
