@@ -4,21 +4,21 @@ public class BreakDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		int i = 0;
-//		while(i<5) {
+//		int count = 0;
+//		while(count < 5) {
 //			System.out.println("hello");
-//			if(i == 2) {
+//			if(count == 2) {
 //				continue;
 //			}
 //			System.out.println("bye");
-//			i++;
+//			count++;
 //		}
 		
-		for(int i = 1; i< 5;i++) {
-			if(i == 2) {
+		for(int count = 1; count< 5;count++) {
+			if(count == 2) {
 				continue;
 			}
-			System.out.println("hello" +i);
+			System.out.println("hello" +count);
 		}
 	}
 
