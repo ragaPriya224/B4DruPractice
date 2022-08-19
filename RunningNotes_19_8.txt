@@ -1,1 +1,15 @@
 constructor 
+method overriding
+encapsulation
+
+//interf1  extends  interf2
+2
+//Class1  implements Interf1
+
+3
+//class Class1  extends Class2
+4
+//Class1 extends Class2  implements Interf1,Interf2
+
+5
+// u can implement any number of interfaces, but only one class, u can extend
