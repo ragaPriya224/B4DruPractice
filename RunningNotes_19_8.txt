@@ -13,3 +13,15 @@ encapsulation
 
 5
 // u can implement any number of interfaces, but only one class, u can extend
+
+
+---------------TASKS-------------------
+
+Create a friend class,
+ bestfriend class should be child of friend class 
+
+
+in friend , create a method toEat(), and give some food items,
+in bestfriend , override that method and give any other food implementation.   
+u have to call the toEat method from bestfriend object and check output
+
