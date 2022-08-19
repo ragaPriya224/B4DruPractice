@@ -25,3 +25,4 @@ in friend , create a method toEat(), and give some food items,
 in bestfriend , override that method and give any other food implementation.   
 u have to call the toEat method from bestfriend object and check output
 
+https://www.geeksforgeeks.org/collections-in-java-2/
