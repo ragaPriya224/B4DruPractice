@@ -104,3 +104,39 @@ PRIORITY QUEUE        BLOCKING QUEUE -> LINKED, PRIORITY
 
 WE WERE representing a group of individual objects as a single entity 
 ----------------------------
+
+7. MAP(I)
+
+if we want to represent a group of objects as key , value pair -> then go for map
+
+Key              value 
+
+vegBriyani      100
+chickenBriyani   200
+coffee            50 
+
+rollID   name
+
+101   anu   -> entity 
+102   aravind
+103    john
+
+ pair of key value is known as entity 
+
+not child interface of collection 
+
+Map(I)
+
+hashMap    weakHashMap IdentityHashMap Hashtable(dictionary)
+linkedHashMap
+
+8.sortedmap(I)  ->
+
+insert a key value pair according to sorting order
+impl classs -> treemap
+
+
+9.navigable map(I)
+
+navigation purposes
+child of sorted map 
