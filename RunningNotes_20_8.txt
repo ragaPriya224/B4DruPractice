@@ -139,4 +139,26 @@ impl classs -> treemap
 9.navigable map(I)
 
 navigation purposes
-child of sorted map 
+child of sorted map
+
+----------------------IN DEPTHJ NOTES---------------------
+
+Arraylist:
+dup ok
+order ok
+heterogenous data allowed
+null insertion possible 
+DS: resizable/growable array 
+initial capacity of ten.
+
+https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
+Constructor:
+
+ArrayList al = new ArrayList();
+ArrayList al = new ArrayList(100);
+
+
+
+best: retrieval 
+worst : insertion/deletion X
+https://www.w3schools.com/java/java_arraylist.asp
