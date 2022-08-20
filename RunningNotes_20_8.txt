@@ -1,1 +1,20 @@
 Collections
+
+
+ KEY Interface ->  9 
+---------------
+1. collection(I)
+2. List(I) 
+3. set(I)
+4. sortedSet(I)
+5. navigableSet(I)
+6. queue(I)
+7. map (I)
+8. sortedMap(I)
+9. navigableMap(I)
+
+
+// dress shop -> unique items
+// grocery shop -> duplicate items
+// hotel -> burger & coke 
+// hotel -> menu card-> price and food item
