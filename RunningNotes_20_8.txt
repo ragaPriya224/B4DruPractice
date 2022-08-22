@@ -178,3 +178,18 @@ LinkedList(Collection c)
 
 Best: insertion, deletion
 worst: retrieval 
+
+
+METHoDS:
+	addFirst(E e)
+  addLast(E e)
+getFirst
+getLast
+removeFirst
+removeLast
+
+-----------------------------------
+
+      ArrayList                	linkedList
+best    retrieval	    	       insertion,deletion
+worst   insesrtion/deletion      retrieval 
