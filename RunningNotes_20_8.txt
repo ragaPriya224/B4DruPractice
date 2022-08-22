@@ -250,3 +250,11 @@ heterogenous no
 null is possible, only once 
 
 4 constructor
+
+
+
+
+String[] name = new String[10];
+		name[5] ="hyderabad";
+		name[2] = "tokyo";
+		name[1] = "newyork";
