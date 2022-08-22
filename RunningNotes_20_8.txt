@@ -162,3 +162,19 @@ ArrayList al = new ArrayList(100);
 best: retrieval 
 worst : insertion/deletion X
 https://www.w3schools.com/java/java_arraylist.asp
+----------------------------------------------------
+LinkedList:
+
+dup ok
+ins ok 
+heterogenous data
+null ins ok
+DS: doub le linked list
+
+constructor:
+LinkedList()
+LinkedList(Collection c)
+
+
+Best: insertion, deletion
+worst: retrieval 
