@@ -39,9 +39,43 @@ Less number of code -> Functional programming
  -> without r type, without modifier, without name -> 
 very vey easy concepts
  
- public void m1() {
+ public void m1()
+ {
  sysout("hello");
+}
+  () -> sysout("hello"); 
+{} -> optional
+
+EG: 2
+
+ public void m1(int a, int b){
+ sysout(a+b);
+ }
+   ( a, b) -> sysout(a+b); //solution
+ 
+ 
+ EG 3:
+ public int squareIt(int n){
+ return n*n;
+ }
+
+    (n) ->  n*n;
+ 
+ EG: 4
+ public void m1(String s){
+ return s.length()
  }
  
-    () -> sysout("hello");
+    ( s) -> s.length();
+    
+    
+    
+    ---------------------
+    FI -> Functional Interface
+Runnable, comparable, actionListener, callable
+common point-> only one method
+run(), compareTo(), actionPerformed(), call()
+
+SAM?single abstract method   in functional Interface
+if u wanna invoke lambda expressions, then compulsorily
 
