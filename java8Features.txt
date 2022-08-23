@@ -26,3 +26,22 @@ Less number of code -> Functional programming
 8. date time api ( util.date or sql.date)
 9. Nashron js engine
 
+
+1. lambda expression
+  
+  lambda -> python, c , c++ 
+   not specific to java, came lately 
+   -> lambda expression
+   objective: to bring benefits of functional programming into javaa
+   ->
+   anonymous function
+ -> no name/ nameless
+ -> without r type, without modifier, without name -> 
+very vey easy concepts
+ 
+ public void m1() {
+ sysout("hello");
+ }
+ 
+    () -> sysout("hello");
+
