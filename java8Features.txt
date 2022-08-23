@@ -1,1 +1,28 @@
+ava 8 feature -> 2014
+latest 17 version 
+
+
+python, R, scala 
+10 lines of code ->
+100 lines of java -> 
+
+Less number of code -> Functional programming
+ Lambda Expresion -> powerful concept to enable  functional,
+ 					 reduce lines of code
+ 					 
+1. lambda expression
+2. functional interface
+3. default/static methods
+4. predefined  functional interfaces
+     predicate
+     consumer
+     supplier
+     function
+5.Double colon operator (::)
+     for method reference purpose
+     for constructor reference. 
+6. streams, parallel streams
+7. optional classes ( to avoid null pointer exce)
+8. date time api ( util.date or sql.date)
+9. Nashron js engine
 
