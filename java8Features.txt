@@ -79,6 +79,15 @@ run(), compareTo(), actionPerformed(), call()
 SAM?single abstract method   in functional Interface
 if u wanna invoke lambda expressions, then compulsorily
 
+1.Functional Interface is a interface which contains only one abstract method
+2.Can contain default and static methods
+3. @Functional Interface annotation is optional.
+4. Lambda Expression used to represent instance of functional interface
+
+
+
+
+
  interface Interf {
  public abstract void m1();
      default void m2() {
@@ -137,4 +146,8 @@ interface A {
 
 -------------above error ------------
 
+1.CONSUMER -> single argument as input , not return anything
+2.PREDICATE -> single argument as input, return BOOLEAN 
+3. FUNCTION -> one argument as input, another as output,
+4. SUPPLIER -> NO argument as input, return bulk of data
 
