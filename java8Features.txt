@@ -92,3 +92,46 @@ public void m2();
 }
 
 --------------------this code gives compilation error.----------------------
+
+@FunctionalInterface {
+ interface Interface { 
+}
+
+
+-----above code compilation error ------------------
+
+
+@FunctionalInterface
+ interface A {
+ public void methodOne();
+ }
+ 
+ @FunctionalInterface
+ Interface B extends A {
+ } 
+
+-=------------validabove--------------
+) @FunctionalInterface
+2) interface A {
+3) public void methodOne();
+4) }
+5) @FunctionalInterface
+6) interface B extends A {
+7) public void methodOne();
+8) } 
+
+-------------------above valid -------------
+
+
+1) @FunctionalInterface {
+2) interface A {
+3) public void methodOne();
+4) }
+5) @FunctionalInterface
+6) interface B extends A {
+7) public void methodTwo();
+8) }
+
+-------------above error ------------
+
+
