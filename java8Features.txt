@@ -157,3 +157,7 @@ TASKS:
 1. use accept method in consumer for a Integer datatype
 2. use andThen accept in consumer for a String datatype
 
+
+1. use accept method in BIconsumer for a Integer datatype
+2. use andThen accept in BIconsumer for a String datatype
+
