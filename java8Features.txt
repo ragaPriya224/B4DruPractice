@@ -79,11 +79,16 @@ run(), compareTo(), actionPerformed(), call()
 SAM?single abstract method   in functional Interface
 if u wanna invoke lambda expressions, then compulsorily
 
-) interface Interf {
-2) public abstract void m1();
-3) default void m2() {
-4) System.out.println ( "hello)';
-5) }
-6) } 
+ interface Interf {
+ public abstract void m1();
+     default void m2() {
+        System.out.println ( "hello)';
+      }
+ } 
+------above valid-------------
+@FunctionalInterface {
+public void m1(); 
+public void m2();
+}
 
-
+--------------------this code gives compilation error.----------------------
