@@ -151,3 +151,9 @@ interface A {
 3. FUNCTION -> one argument as input, another as output,
 4. SUPPLIER -> NO argument as input, return bulk of data
 
+
+
+TASKS:
+1. use accept method in consumer for a Integer datatype
+2. use andThen accept in consumer for a String datatype
+
