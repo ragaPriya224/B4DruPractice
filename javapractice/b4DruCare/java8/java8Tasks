@@ -1,0 +1,27 @@
+Consumer Exercise:
+
+1. change gender of each person to upper case
+2. give 1000rupee bonus to each person as new year bonus 
+
+BiConsumer Exercise:
+1.  get salary and the hobbies and hobbies must be in upper case
+2. get name and salary 
+
+Predicate:
+
+1. check gender is female and salary greater 2000
+
+---------------------
+try creating a  interface with default method and try to call it in a class
+try creating a interface with default and static method and try to call it in a  class
+----------------stream tasks-------------------
+2. Have a list of string for cities like chennai, mumbai, bangalore , delhi ,chicago
+ i) convert the  all te cities to uppercase
+ ii) filter te cities whose lengt is greater than 6
+iii) filter the cities that starts with c
+iv) print the cities that contains "ai"
+v) append  the word "metro" to all the cities 
+vi) sort the cities
+vii) count how many cities start with c
+viii) using Stream.findFirst(), try to return the first element from the stream
+
