@@ -161,3 +161,13 @@ TASKS:
 1. use accept method in BIconsumer for a Integer datatype
 2. use andThen accept in BIconsumer for a String datatype
 
+
+
+https://stackify.com/streams-guide-java-8/
+https://howtodoinjava.com/java/stream/java-streams-by-examples/
+https://javabydeveloper.com/java-8-supplier-functional-interface-with-examples/
+
+https://stackify.com/streams-guide-java-8/
+https://innovationm.co/concept-of-stream-api-java1-8/
+https://www.youtube.com/watch?v=YgLBOV9MJRI&list=PLSg8jHkYTg9H70Okvb5M7iWAk3EPpTn_q
+
