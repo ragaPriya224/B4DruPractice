@@ -1,0 +1,173 @@
+ava 8 feature -> 2014
+latest 17 version 
+
+
+python, R, scala 
+10 lines of code ->
+100 lines of java -> 
+
+Less number of code -> Functional programming
+ Lambda Expresion -> powerful concept to enable  functional,
+ 					 reduce lines of code
+ 					 
+1. lambda expression
+2. functional interface
+3. default/static methods
+4. predefined  functional interfaces
+     predicate
+     consumer
+     supplier
+     function
+5.Double colon operator (::)
+     for method reference purpose
+     for constructor reference. 
+6. streams, parallel streams
+7. optional classes ( to avoid null pointer exce)
+8. date time api ( util.date or sql.date)
+9. Nashron js engine
+
+
+1. lambda expression
+  
+  lambda -> python, c , c++ 
+   not specific to java, came lately 
+   -> lambda expression
+   objective: to bring benefits of functional programming into javaa
+   ->
+   anonymous function
+ -> no name/ nameless
+ -> without r type, without modifier, without name -> 
+very vey easy concepts
+ 
+ public void m1()
+ {
+ sysout("hello");
+}
+  () -> sysout("hello"); 
+{} -> optional
+
+EG: 2
+
+ public void m1(int a, int b){
+ sysout(a+b);
+ }
+   ( a, b) -> sysout(a+b); //solution
+ 
+ 
+ EG 3:
+ public int squareIt(int n){
+ return n*n;
+ }
+
+    (n) ->  n*n;
+ 
+ EG: 4
+ public void m1(String s){
+ return s.length()
+ }
+ 
+    ( s) -> s.length();
+    
+    
+    
+    ---------------------
+    FI -> Functional Interface
+Runnable, comparable, actionListener, callable
+common point-> only one method
+run(), compareTo(), actionPerformed(), call()
+
+SAM?single abstract method   in functional Interface
+if u wanna invoke lambda expressions, then compulsorily
+
+1.Functional Interface is a interface which contains only one abstract method
+2.Can contain default and static methods
+3. @Functional Interface annotation is optional.
+4. Lambda Expression used to represent instance of functional interface
+
+
+
+
+
+ interface Interf {
+ public abstract void m1();
+     default void m2() {
+        System.out.println ( "hello)';
+      }
+ } 
+------above valid-------------
+@FunctionalInterface {
+public void m1(); 
+public void m2();
+}
+
+--------------------this code gives compilation error.----------------------
+
+@FunctionalInterface {
+ interface Interface { 
+}
+
+
+-----above code compilation error ------------------
+
+
+@FunctionalInterface
+ interface A {
+ public void methodOne();
+ }
+ 
+ @FunctionalInterface
+ Interface B extends A {
+ } 
+
+-=------------validabove--------------
+@FunctionalInterface
+interface A {
+ public void methodOne();
+ }
+
+ @FunctionalInterface
+ interface B extends A {
+ public void methodOne();
+ } 
+
+-------------------above valid -------------
+
+
+@FunctionalInterface {
+ interface A {
+ public void methodOne();
+ }
+
+
+ @FunctionalInterface
+ interface B extends A {
+ public void methodTwo();
+ }
+
+-------------above error ------------
+
+1.CONSUMER -> single argument as input , not return anything
+2.PREDICATE -> single argument as input, return BOOLEAN 
+3. FUNCTION -> one argument as input, another as output,
+4. SUPPLIER -> NO argument as input, return bulk of data
+
+
+
+TASKS:
+1. use accept method in consumer for a Integer datatype
+2. use andThen accept in consumer for a String datatype
+
+
+1. use accept method in BIconsumer for a Integer datatype
+2. use andThen accept in BIconsumer for a String datatype
+
+
+
+https://stackify.com/streams-guide-java-8/
+https://howtodoinjava.com/java/stream/java-streams-by-examples/
+https://javabydeveloper.com/java-8-supplier-functional-interface-with-examples/
+
+https://stackify.com/streams-guide-java-8/
+https://innovationm.co/concept-of-stream-api-java1-8/
+https://www.youtube.com/watch?v=YgLBOV9MJRI&list=PLSg8jHkYTg9H70Okvb5M7iWAk3EPpTn_q
+
